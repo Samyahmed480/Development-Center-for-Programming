@@ -1,0 +1,205 @@
+html[lang="ar"], body[lang="ar"], body.rtl, .rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+.rtl .main-content,
+body[lang="ar"] .main-content {
+    text-align: right;
+}
+
+.rtl .hero-section, body[lang="ar"] .hero-section {
+    text-align: right;
+}
+
+.rtl .hero-title, body[lang="ar"] .hero-title {
+    text-align: right;
+}
+
+.rtl .details-section, body[lang="ar"] .details-section,
+.rtl .recommendations-section, body[lang="ar"] .recommendations-section {
+    text-align: right;
+}
+
+.rtl ul, body[lang="ar"] ul {
+    padding-right: 24px;
+    padding-left: 0;
+}
+body.dark-mode {
+    background-color: #181c24;
+    color: #e0e0e0;
+}
+
+.dark-mode .main-content {
+    background: #181c24;
+}
+
+.dark-mode .hero-section {
+    background: #23283a;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+.dark-mode .hero-title {
+    background: #23283a;
+    color: #ffe082;
+    box-shadow: 0 1px 4px rgba(255, 215, 0, 0.10);
+}
+
+.dark-mode .details-section,
+.dark-mode .recommendations-section {
+    background: #23283a;
+    color: #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.dark-mode .subscribe-button {
+    background: linear-gradient(90deg, #128C7E 60%, #25D366 100%);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(30, 41, 59, 0.18);
+}
+
+.dark-mode .subscribe-button:hover {
+    background: linear-gradient(90deg, #25D366 60%, #128C7E 100%);
+}
+
+.dark-mode .page-footer {
+    background-color: #181c24;
+    color: #bdbdbd;
+}
+body {
+    font-family: 'Cairo', 'Tajawal', 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8fa;
+    color: #23272f;
+    line-height: 1.8;
+    font-size: 1.1em;
+    letter-spacing: 0.01em;
+}
+
+.subscribe-button {
+    background-color: #25D366;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.hero-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 12px auto;
+    display: block;
+}
+
+.hero-title {
+    font-size: 2.5em;
+    color: #35424a;
+    margin-top: 10px;
+}
+
+.details-section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.course-video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.2em;
+    padding: 12px 24px;
+    background-color: #25D366;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background: #1e7e65;
+    transform: scale(1.05);
+}
+
+.recommendations-section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #35424a;
+    color: #ffffff;
+}
+
+.media-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.service-video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .video-container video {
+        max-width: 100%;
+    }
+
+    .whatsapp-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+.dark-mode .subscribe-button1 {
+    background: linear-gradient(90deg, #2b3875ff 60%, #161a5cff 100%);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(30, 41, 59, 0.18);
+}
+
+.dark-mode .subscribe-button1:hover {
+    background: linear-gradient(90deg, #25D366 60%, #128C7E 100%);
+}
