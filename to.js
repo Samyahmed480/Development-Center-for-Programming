@@ -12,4 +12,3 @@ function validateCode(event) {
     }
     return false;
 }
-
