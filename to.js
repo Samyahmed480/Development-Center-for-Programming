@@ -2,7 +2,7 @@
 function validateCode(event) {
     event.preventDefault();
     const code = document.getElementById('code').value;
-    const validCode = "1234";
+    const validCode = "TSH2007";
 
     if (code === validCode) {
         localStorage.setItem('isLoggedIn', 'true');
@@ -12,3 +12,4 @@ function validateCode(event) {
     }
     return false;
 }
+
